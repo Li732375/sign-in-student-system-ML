@@ -14,7 +14,6 @@ value = ''
 
 ###main
 ##讀取目錄路徑
-#'F:\\python作品\\登入學生系統\\test2'
 pictrueInputDir = #str(input('輸入圖片目錄，可以直接拖曳至此：'))
 
 if not path.isdir(pictrueInputDir):

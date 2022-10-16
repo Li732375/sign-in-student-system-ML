@@ -16,7 +16,7 @@ import pytesseract
 import stdiomask
 
 #https://www.facebook.com/
-site = 'https://webap.nptu.edu.tw/web/Secure/default.aspx?sIndex=2'
+site = 'https://XXXXX.XXXX.edu.tw/web/Secure/default.aspx?sIndex=2'
 #帳號
 account = input('帳號?')
 #密碼至少首位要大寫
@@ -54,7 +54,7 @@ while True:
 
     #輸入驗證碼
     #驗證碼網址
-    targetUrl = 'https://webap.nptu.edu.tw/web/Modules/CaptchaCreator.aspx'
+    targetUrl = 'https://XXXXX.XXXX.edu.tw/web/Modules/CaptchaCreator.aspx'
 
     ##裁切等分
     scale = 7
@@ -153,10 +153,10 @@ while True:
     break   
 
 ##進去之後是站中站
-#左半站'https://webap.nptu.edu.tw/web/Message/MenuTree.aspx'
-#右半站'https://webap.nptu.edu.tw/web/Message/Main.aspx'
+#左半站'https://XXXXX.XXXX.edu.tw/web/Message/MenuTree.aspx'
+#右半站'https://XXXXX.XXXX.edu.tw/web/Message/Main.aspx'
 #而登出僅在右半站才有
-driver.get('https://webap.nptu.edu.tw/web/Message/Main.aspx')
+driver.get('https://XXXXX.XXXX.edu.tw/web/Message/Main.aspx')
 sleep(1)
 
 #按下登出紐
